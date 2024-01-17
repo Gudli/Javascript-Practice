@@ -5,4 +5,4 @@ var accountPassword = "12345"
 
 
 accountcity = "Blr"
-console.table([accountId,accountEmail,accountPassword,accountPassword])
+console.table([accountId,accountEmail,accountPassword,accountPassword]);
