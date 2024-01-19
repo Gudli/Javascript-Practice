@@ -64,3 +64,22 @@ Symbol          symbol
 Function        function (function object)
 Any other object    Object 
 */
+//******************************************************* */
+
+//Stack (Primitive), Heap(non-primitive)
+
+let mychannel = "SagarikaRocks!!"
+let next = mychannel//copy of the data
+console.log(mychannel)
+console.log(next)
+next = "SagarikaBeats!!"
+console.log(next);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ylb"
+}
+let userTwo = userOne //reference of the data
+userTwo.email ="sp@gmail.com"
+console.log(userOne)
+console.log(userTwo)
